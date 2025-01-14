@@ -1,0 +1,155 @@
+﻿namespace Event_Management_System
+{
+    partial class User_Notification
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.label2 = new System.Windows.Forms.Label();
+            this.Notifications_dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.label1 = new System.Windows.Forms.Label();
+            this.Back_button = new System.Windows.Forms.Button();
+            this.Delete_Notification_button = new System.Windows.Forms.Button();
+            this.Delet_NOTIFICationrichTextBox = new System.Windows.Forms.RichTextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.Notifications_dataGridView1)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Monotype Corsiva", 19.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.label2.Location = new System.Drawing.Point(12, 9);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(359, 40);
+            this.label2.TabIndex = 26;
+            this.label2.Text = "Event Management System";
+            // 
+            // Notifications_dataGridView1
+            // 
+            this.Notifications_dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.Notifications_dataGridView1.Location = new System.Drawing.Point(28, 119);
+            this.Notifications_dataGridView1.Name = "Notifications_dataGridView1";
+            this.Notifications_dataGridView1.RowHeadersWidth = 51;
+            this.Notifications_dataGridView1.RowTemplate.Height = 24;
+            this.Notifications_dataGridView1.Size = new System.Drawing.Size(742, 271);
+            this.Notifications_dataGridView1.TabIndex = 27;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Monotype Corsiva", 19.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.label1.Location = new System.Drawing.Point(242, 76);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(187, 40);
+            this.label1.TabIndex = 28;
+            this.label1.Text = "Notifications";
+            // 
+            // Back_button
+            // 
+            this.Back_button.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.Back_button.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Back_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Back_button.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.Back_button.Location = new System.Drawing.Point(686, 79);
+            this.Back_button.Margin = new System.Windows.Forms.Padding(4);
+            this.Back_button.Name = "Back_button";
+            this.Back_button.Size = new System.Drawing.Size(84, 33);
+            this.Back_button.TabIndex = 29;
+            this.Back_button.Text = "Back";
+            this.Back_button.UseVisualStyleBackColor = false;
+            this.Back_button.Click += new System.EventHandler(this.Back_button_Click);
+            // 
+            // Delete_Notification_button
+            // 
+            this.Delete_Notification_button.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.Delete_Notification_button.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Delete_Notification_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Delete_Notification_button.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.Delete_Notification_button.Location = new System.Drawing.Point(670, 397);
+            this.Delete_Notification_button.Margin = new System.Windows.Forms.Padding(4);
+            this.Delete_Notification_button.Name = "Delete_Notification_button";
+            this.Delete_Notification_button.Size = new System.Drawing.Size(100, 33);
+            this.Delete_Notification_button.TabIndex = 30;
+            this.Delete_Notification_button.Text = "Delete";
+            this.Delete_Notification_button.UseVisualStyleBackColor = false;
+            this.Delete_Notification_button.Click += new System.EventHandler(this.Delete_Notification_button_Click);
+            // 
+            // Delet_NOTIFICationrichTextBox
+            // 
+            this.Delet_NOTIFICationrichTextBox.Location = new System.Drawing.Point(500, 398);
+            this.Delet_NOTIFICationrichTextBox.Name = "Delet_NOTIFICationrichTextBox";
+            this.Delet_NOTIFICationrichTextBox.Size = new System.Drawing.Size(144, 32);
+            this.Delet_NOTIFICationrichTextBox.TabIndex = 31;
+            this.Delet_NOTIFICationrichTextBox.Text = "";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.Transparent;
+            this.label5.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.label5.Location = new System.Drawing.Point(277, 401);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(202, 23);
+            this.label5.TabIndex = 32;
+            this.label5.Text = "Enter a Notification ID";
+            // 
+            // User_Notification
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.Delet_NOTIFICationrichTextBox);
+            this.Controls.Add(this.Delete_Notification_button);
+            this.Controls.Add(this.Back_button);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.Notifications_dataGridView1);
+            this.Controls.Add(this.label2);
+            this.Name = "User_Notification";
+            this.Text = "User_Notification";
+            this.Load += new System.EventHandler(this.User_Notification_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.Notifications_dataGridView1)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.DataGridView Notifications_dataGridView1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button Back_button;
+        private System.Windows.Forms.Button Delete_Notification_button;
+        private System.Windows.Forms.RichTextBox Delet_NOTIFICationrichTextBox;
+        private System.Windows.Forms.Label label5;
+    }
+}

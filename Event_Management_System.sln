@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Event_Management_System", "Event_Management_System\Event_Management_System.csproj", "{00EA6FB2-BB16-44FD-9CA9-361ABEE7EBB7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00EA6FB2-BB16-44FD-9CA9-361ABEE7EBB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00EA6FB2-BB16-44FD-9CA9-361ABEE7EBB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00EA6FB2-BB16-44FD-9CA9-361ABEE7EBB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00EA6FB2-BB16-44FD-9CA9-361ABEE7EBB7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A6A88468-057B-4342-9F2E-C1C7877EF563}
+	EndGlobalSection
+EndGlobal
